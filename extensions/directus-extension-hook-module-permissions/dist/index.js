@@ -1,0 +1,1 @@
+var t=({filter:t,action:a})=>{t("settings.read",(async(t,a,e)=>{e.accountability&&!e.accountability.admin&&(t[0].module_bar=[{type:"module",id:"content",enabled:!0}]);return t}))};export{t as default};
