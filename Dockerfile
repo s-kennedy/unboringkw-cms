@@ -6,6 +6,7 @@ RUN corepack enable \
 && chown node:node /directus
 EXPOSE 8055
 USER node
+RUN pnpm install directus-extension-hook-module-permissions
 CMD : \
 && node /directus/cli.js bootstrap \
 && node /directus/cli.js start;
