@@ -1,5 +1,5 @@
 {
-	"name": "directus-hook-module-permissions",
+	"name": "directus-extension-hook-module-permissions",
 	"description": "Please enter a description for your extension",
 	"icon": "extension",
 	"version": "1.0.0",
