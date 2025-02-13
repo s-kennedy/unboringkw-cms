@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1.4
 FROM directus/directus:10.13.0
 USER root
-RUN pnpm install -g corepack@latest \
-RUN corepack enable \
+RUN pnpm install -g corepack@latest \ 
+&& corepack enable \
 && corepack prepare pnpm@8.7.6 --activate \
 && chown node:node /directus
 EXPOSE 8055
